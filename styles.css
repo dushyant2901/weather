@@ -1,96 +1,99 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: white;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
 }
 
-.container{background: linear-gradient(to right,#FF416c,#FF4B4B);
-   width: 100%; 
-    height: 100vh;
-    position: relative;
-    
+.container {
+  background: linear-gradient(to right, #ff416c, #ff4b4b);
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
-.container .location{
-    position: absolute;
-    top: 4rem;
-    left: 0;
-    display: flex;
-    justify-content: center;
-   
-    height: 3rem;
-    width: 100%;
-
+.container .location {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  height: 3rem;
+  width: 100%;
 }
 
-.container input{
-    height: 1.8rem;
-    width: 200px;
-    color: white;
-    outline: none;
-    background: #ffffff50;
-    border: 1px solid white;
-    border-radius:1.6rem 0.8rem ;
-    margin: 0rem 0.5rem;
-    padding: 0rem 0.25rem;
-    font-size: 1rem;
-    font-weight: 200;
-    
+.container input {
+  height: 1.8rem;
+  width: 200px;
+  color: white;
+  outline: none;
+  background: #ffffff50;
+  border: 1px solid white;
+  border-radius: 1.6rem 0.8rem;
+  margin: 0rem 0.5rem;
+  padding: 0rem 0.25rem;
+  font-size: 1rem;
+  font-weight: 200;
 }
 
-.container .data{
-    position: absolute;
-    bottom: 3rem;
-    
+.container .data {
+  position: absolute;
+  bottom: 3rem;
 }
-.container input::placeholder{
-color: #e2e2e2;
-font-weight: 200;
-}
-
-.container input[type="submit"]{
-    cursor: pointer;
-    width: 5rem;
-    background:#fff;
-    color: #FF4B2B;
-    font-weight:700;
-    transition: all 0.3s ease-in;
+.container input::placeholder {
+  color: #e2e2e2;
+  font-weight: 200;
 }
 
-.container input[type="submit"]:hover{
-    background:  #ffffff50;
-    color:white;
+.container input[type="submit"] {
+  cursor: pointer;
+  width: 5rem;
+  background: #fff;
+  color: #ff4b2b;
+  font-weight: 700;
+  transition: all 0.3s ease-in;
 }
 
+.container input[type="submit"]:hover {
+  background: #ffffff50;
+  color: white;
+}
 
-.tempIcon{ position: absolute;
-    top: 35%;
-   right: 17%;
-height: 100px;
-width: 100px;}
-.weatherCountry{
-    position: absolute;
-    top: 40%;
-    left: 15%;
-    font-size: 1.4rem;
+.tempIcon {
+  position: absolute;
+  top: 35%;
+  right: 17%;
+  height: 100px;
+  width: 100px;
 }
-.temperature{ position: absolute;
-    bottom: 35%;
-    left: 50%;
-    font-size: 1.5rem;
+.weatherCountry {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  font-size: 1.4rem;
 }
-.weatherDescription{ position: absolute;
-    bottom: 25%;
-    left: 50%;
-    font-size: 1.2rem;
+.temperature {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  font-size: 1.5rem;
 }
-    .data{
-        position: absolute;
-    bottom: 10%;
-    left: 15%;
-    font-size: 0.9rem;
-    }
-    .temperature b{
-        color:#e2e2e290 ;
-    }
+#degree{
+    margin-left: 0.2rem;
+}
+.weatherDescription {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  font-size: 1.2rem;
+}
+.data {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  font-size: 0.9rem;
+}
+.temperature b {
+  color: #e2e2e290;
+}
